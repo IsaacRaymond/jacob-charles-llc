@@ -1,0 +1,14 @@
+{
+  "name": "jake-charles",
+  "version": "1.0.0",
+  "description": "website for jake charles business",
+  "main": "main.js",
+  "scripts": {
+    "test": "tes"
+  },
+  "author": "Isaac Raymond",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
