@@ -81,6 +81,8 @@ section{
 
 .example{
   min-height: 200px;
+  grid-column-start: 2;
+  grid-column-end: 2;
 }
 
 .footer{
@@ -115,6 +117,11 @@ section{
   opacity: 0.6;
 }
 
+.picture-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .toggle-hidden{
   opacity: 0 !important;
   transition: all .2s ease-in-out;
@@ -135,16 +142,17 @@ section{
 */
 
 #center-text{
-  width: 80%;
+  width: 85%;
   margin: 15px 10% 15px 10%;
   color: black;
   letter-spacing: 2px;
   font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 #example-picture{
   margin: 20px;
-  height: 120px;
+  height: 180px;
 }
 
 #footer-special-text{

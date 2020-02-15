@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 });
 
 window.onload = function() {
-  $('#header').parallax({imageSrc: 'Resources/homeproducts.png', iosFix: true, androidFix: true});
+  $('#header').parallax({imageSrc: 'Resources/banner.jpg', iosFix: true, androidFix: true});
 }
 
 function dropDown () {
