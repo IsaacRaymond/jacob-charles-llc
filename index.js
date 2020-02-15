@@ -17,8 +17,8 @@ app.get('/', function(req, res){
 
 
 app.post('/subpages/contact/thankyou.html', function(req, res){
-  //mailgunStuff.sendEmail(req);
-  //res.json({"HEY": "STUFF"});
+  mailgunStuff.sendEmail(req);
+  res.json({"HEY": "STUFF"});
   let ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
   mlabStuff.mongoTest(ip);

@@ -68,7 +68,7 @@ let httpRequest = new XMLHttpRequest();
 
 
 function sendEmail(){
-/*
+
   if(!httpRequest){
     alert('Server error:  cannot send email');
     return false;
@@ -86,7 +86,6 @@ function sendEmail(){
 
   httpRequest.open('POST','http://localhost:3000/');
   httpRequest.send("foo=bar");
-  */
 }
 
 function test(){
