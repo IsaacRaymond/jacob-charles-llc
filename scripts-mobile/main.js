@@ -11,12 +11,11 @@ window.onload = function() {
   exampleWork = document.getElementById("example-work");
   customerTestimonials = document.getElementById("customer-testimonials");
 
-  var mq = window.matchMedia("(min-width: 699px)");
+  var mq = window.matchMedia("(min-width: 600px)");
   if (mq.matches) {
     parallax();
   } else {
     staticBackground();
-    window.location.replace("/index-mobile.html");
   }
 
 
@@ -40,7 +39,7 @@ function parallax (){
 function staticBackground(){
   document.getElementById("customer-testimonials").style.backgroundSize = "cover";
   document.getElementById("customer-testimonials").style.backgroundImage="url(Resources/title-image-dark.png)";
-  document.getElementById("title-section").style.backgroundImage="url(Resources/index/11.jpg)";
+  document.getElementById("title-section").style.backgroundImage="url(Resources/other-dark-lowres.jpg)";
   document.getElementById("title-section").style.backgroundSize="cover";
 }
 
