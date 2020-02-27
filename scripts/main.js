@@ -16,7 +16,7 @@ window.onload = function() {
     parallax();
   } else {
     staticBackground();
-    window.location.replace("/index-mobile.html");
+    //window.location.replace("/index-mobile.html");
   }
 
 
@@ -39,7 +39,7 @@ function parallax (){
 
 function staticBackground(){
   document.getElementById("customer-testimonials").style.backgroundSize = "cover";
-  document.getElementById("customer-testimonials").style.backgroundImage="url(Resources/title-image-dark.png)";
+  document.getElementById("customer-testimonials").style.backgroundImage="url(Resources/index/IMG_3076.jpg)";
   document.getElementById("title-section").style.backgroundImage="url(Resources/index/11.jpg)";
   document.getElementById("title-section").style.backgroundSize="cover";
 }

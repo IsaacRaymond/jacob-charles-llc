@@ -53,7 +53,3 @@ function dropDown () {
     dropdown.classList.add('show');
   }
 }
-
-function goToProjects() {
-  console.log('yo wussup');
-}
